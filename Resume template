@@ -1,0 +1,245 @@
+%------------------------
+% Resume Template
+% Author : Raghav S kumar
+% Github : https://github.com/xprilion
+% License : MIT
+%------------------------
+
+\documentclass[a4paper,20pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{fontawesome}
+
+
+%---------Hyperlink Styling----------
+\usepackage{xcolor}
+\hypersetup{
+            colorlinks,
+            linkcolor={red!50!black},
+            citecolor={blue!50!black},
+            urlcolor={blue!80!black}
+}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.560in}
+\addtolength{\evensidemargin}{-0.405in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.65in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\urlstyle{same}
+\definecolor{lightblu}{RGB}{70,130,180}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{\color{black} \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black} \titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{ #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+       % \textit{\small #5}\\
+    \end{tabular*}\vspace{-5pt}
+}
+
+% \newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+% \renewcommand{\labelitemii}{$\circ$}
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[label={},leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-----------------------------
+%%%%%%  CV STARTS HERE  %%%%%%
+
+\begin{document}
+
+%----------HEADING-----------------
+
+\begin{center}
+  {\LARGE \textbf{Raghav S Kumar}} \\
+  \vspace{-6}
+  \underline{\hspace{14cm}}  % Adjust the underline length as needed
+\end{center}
+
+
+
+\begin{center}
+  \faEnvelope \hspace{1pt} \href{mailto:kumarraghav449@gmail.com}{kumarraghav449@gmail.com}\hspace{5pt}\textbar\hspace{5pt}
+  \faMobile \hspace{1pt} +91-8377868720 \hspace{5pt}\textbar\hspace{5pt}
+  \faGithub \hspace{1pt} \href{https://github.com/rsk27}{rsk27}  \hspace{5pt}\textbar\hspace{5pt}
+  \faLinkedin \hspace{1pt} \href{https://www.linkedin.com/in/raghav-s-kumar-032499142/}{Raghav s Kumar}
+\end{center}
+
+\vspace{-8pt}
+
+%-----------EDUCATION--------------------------------------
+\section{Education}
+\vspace{2pt}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Thapar Institute of Engineering and Technology}{Patiala, India}
+      {(BE-MBA)Masters of Business Administration,
+      {Finance and Business Analytic}; CGPA: 7.22/10}{2019 - 2024}
+    \resumeSubHeadingListEnd
+    \vspace{-4pt}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Thapar Institute of Engineering and Technology}{Patiala, India}
+      {(BE-MBA)Bachelors Of Engineering,
+      {Mechanical Engineering}; CGPA: 8.73/10}{2019 - 2024}
+    \resumeSubHeadingListEnd
+    \vspace{-4pt}
+  % \resumeSubHeadingListStart
+  %   \resumeSubheading
+  %     {Himalaya Public Sr. Sec. School}{Delhi, India}
+  %     {CBSE,  Percentage: 90\% }{2019}
+  %   \resumeSubHeadingListEnd
+  %   \vspace{-4pt}
+  % \resumeSubHeadingListStart
+  %   \resumeSubheading
+  %     {Himalaya Public Sr. Sec. School}{Delhi, India}
+  %     {CBSE;  CGPA: 10/10}{2017}
+    % \resumeSubHeadingListEnd
+    
+%-----------EXPERIANCE-----------------
+ \vspace{-8pt}
+ \section{{Internship}}
+  \vspace{2pt}
+  \resumeSubheading
+     {\href{}{Government Of India}}{Delhi, India}
+      {Intern}{June 2023 - Aug 2023}
+         \resumeItemListStart 
+        \resumeItem{ML Model Deployment:}{Engineered and deployed a robust Malware Image Classification model as a dynamic web application, leveraging Flask-API,Python and MySQL for efficient database management.}
+        \resumeItem{Development of Multi-Class Classification Model:}{Designed and implemented a Image Classification model using Deep Learning and Transfer Learning Techniques on Byteplot Image samples.}
+        \resumeItem{Custom Dataset Curation and Analysis:}{Curated a dataset and conducted thorough Exploratory Data Analysis (EDA), conducting a comprehensive comparative study against benchmark datasets}
+        \resumeItem{Conducted Static Analysis on Malware samples:}{using various tools like Volitility3 on Sandbox to ascertain malicious behaviour of suspected Files.}
+    \resumeItemListEnd
+  % \vspace{2pt}
+\resumeSubheading
+     {\href{https://transmuteai-trailmet.readthedocs.io/en/latest/}{Transmute AI Lab}}{ISM DHANBAD, India}
+      {UG Fellow}{Jan 2023 - Apr 2023}
+      \begin{itemize}
+          \resumeItem{Enhanced Dataset Handling:}{Contributed to the Transmute AI Lab by integrating the CheXpert medical dataset and the Lasot object tracking dataset into the unified dataset loader of the TrAILMET toolkit.}
+          \resumeItem{Documentation Enhancement:}{Revitalized the toolkit's documentation by incorporating comprehensive environment details and streamlined setup instructions. Pioneered the creation of a dedicated documentation website for improved accessibility.}
+      \end{itemize}
+%-----------PROJECTS-----------------    
+% Research/Academic Projects
+\section{Research/Academic Projects}
+    \resumeSubheading
+      {Design and Development of Pediatric Gait Rehabilitation Robot}{Jan 2023}
+      {Robotics, Deep Learning, MATLAB}{Capstone Project}
+      \begin{itemize}
+          \resumeItem{Mechanical Mechanism:}{Designed the mechanical structure and electronic components for the robot.}
+          \resumeItem{Product Development:}{Developed a specialized gait rehabilitation robot to assist pediatric patients with mobility impairments.}
+      \end{itemize} 
+  \resumeSubheading
+      {License Plate Recognition}{Dec 2022}
+      {Pytorch, Flask}{Project}
+      \begin{itemize}
+          \resumeItem{}{Engineered a License Plate Recognition system using Convolutional Neural Networks (CNNs) in PyTorch.}
+          \resumeItem{}{Implemented Flask to create a seamless and responsive web application for license plate recognition.}
+          \resumeItem{}{Utilized a specific dataset to train the model, enhancing its accuracy and performance.}
+      \end{itemize} 
+    \resumeSubheading
+      {2D Mapping of Surroundings using Hokuyo UTM-30LX Scanning Range in ROS}{Dec 2021}
+      {Python Scripting, ROS, Linux, Rviz}{Research Project}
+      \begin{itemize}
+          \resumeItem{ROS Neotic Ubuntu 20.04:}{Interfaced the Hokuyo Laser in ROS to capture environment data.}
+          \resumeItem{Data Visualization on RViz:}{Created detailed 2D maps of the surroundings for advanced analysis.}
+      \end{itemize}
+    \resumeSubheading
+      {Obstacle Detection for Autonomous Robot using Hokuyo UTM-30LX}{Nov 2021}
+      {Python Scripting, ROS, Arduino, Linux, Sensor Calibration}{Research Project}
+      \begin{itemize}
+          \resumeItem{Controlled Arduino UNO with ROS:}{Implemented communication between ROS and Arduino for robot control.}
+          \resumeItem{Analyzing Laser Data:}{Extracted precise distance data to detect obstacles in close proximity.}
+          \resumeItem{ROS SLAM:}{Implemented simultaneous mapping to create detailed environment maps.}
+      \end{itemize}
+    % \resumeSubHeadingListStart
+    % \resumeSubheading{{Universal Robot UR5}}{Jan 2022}{ROS, Linux, Gazebo, Python Scripting, Rviz}{Course Project}
+    %     \resumeItemListStart 
+    %         \resumeItem{Programmed URDF file for robot representation.}
+    %         \resumeItem{Utilized Rviz and Gazebo for visualization of robot and motion.}
+    %         \resumeItem{Implemented Python Scripting to visualize robot pose for end-effector positions.}
+    %     \resumeItemListEnd
+    
+    % \resumeSubheading{{Delta Robot}}{Jan 2022}{ROS, Linux, Gazebo, Python Scripting, Rviz}{Course Project}
+    %     \resumeItemListStart 
+    %         \resumeItem{Developed a delta robot in Rviz and Gazebo.}
+    %         \resumeItem{Used tools such as Rviz and Gazebo for visualization of robot and motion.}
+    %         \resumeItem{Implemented Python Scripting for visualizing robot pose based on end-effector positions.}
+    %     \resumeItemListEnd
+        
+    % \resumeSubHeadingListEnd
+    
+    % \resumeSubheading
+    %   {Miniature 2D Pen Plotter}{Aug 2021}
+    %   {CAD Modelling, Force Analysis, CNC Coding}{Academic Project}
+    %   \begin{itemize}
+    %       \resumeItem{Material Selection:}{Identifying appropriate materials for linear motion support elements.}
+    %       \resumeItem{Design and Analysis:}{Modeling, designing, and analyzing a robust pen plotter structure capable of withstanding pressure forces required for precise plotting.}
+    %   \end{itemize}
+
+%     \resumeSubHeadingListEnd
+\section{Skills Summary}
+    \vspace{2pt}
+	\resumeSubHeadingListStart
+	\resumeSubItem{Languages}{~~~~~~C++ , Python, Lua, Bash Scripting ,XML,HTML,CSS}
+        \vspace{2pt}
+	\resumeSubItem{Framework}{~~~~~Pytorch, Tensorflow, Flask, Fast API, SolidWorks, OpenCV, Pandas, Numpy, Matplotlib, Gradio}
+	\vspace{2pt}
+	\resumeSubItem{Platforms}{~~~~~~~ROS, Raspberry Pi, SymbolShakti(BOND-GRAPH)}
+	\vspace{2pt}
+	\resumeSubItem{Tools}{~~~~~~~~~~~~~~GIT, Read the docs ,MS Office ,Volatility3, PowerBI, SPSS Statistics, Linux, MATLAB}
+	\vspace{2pt}
+	% \resumeSubItem{Soft Skills}{~~~~~~~Leadership, Problem Solving, Adaptability, Creativity, Prioritization}
+
+  % -----------Awards-----------------
+\section{Academic Achievements}
+    \resumeSubHeadingListStart
+        \resumeSubheading{Awarded Gold Medal for securing the First position in BEMBA(MEE) batch}{}
+        {2022 - 2023, 2021-2022, 2020 - 2021, 2019 - 2020}{Years Awarded}
+        \resumeSubheading{Awarded Thapar Institute Merit Scholarship}{}
+        {2022 - 2023, 2021-2022, 2020 - 2021, 2019 - 2020}{Years Awarded}
+\end{document}
+
